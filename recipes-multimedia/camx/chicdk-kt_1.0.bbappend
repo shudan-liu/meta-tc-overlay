@@ -1,0 +1,4 @@
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+
+SRC_URI[qcm6490.sha256sum] = "5d0b013a85662f818d5c9727bd3de30c8c19168799ff6d738f450d4227a93d63"
+SRC_URI = "file://${BPN}_${PV}_${PBT_ARCH}.tar.gz"
